@@ -1,0 +1,184 @@
+/**************************************************/
+/******** Kirill Miniaev | Miniaev Design *********/
+/** kirill@miniaevdesign.com | miniaevdesign.com **/
+/**************************************************/
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p, span, a, input, button {
+	font-family: "ff-tisa-web-pro";
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: white;
+		text-decoration: underline;
+}
+
+/* Images */
+#main_background {
+	width: 100%;
+	height: 100%;
+	background: black; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -10;
+}
+
+/* High-Level Elements */
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.span_button {
+	display: inline-block;
+	color: white;
+	font-size: 1.875;
+	padding: 10px 15px 12px 15px;
+	background-color: rgba(255, 255, 255, .5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 0px 10px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+/* Body Elements */
+#UAM_ISPA_logo {
+	position: absolute;
+	top: 2.5em;
+	left: 3.125em;
+}
+
+#about {
+	color: white;
+	font-size: 0.875em;
+	line-height: 1.375em;
+	font-weight: 400;
+	
+	width: 26em;
+	display: inline-block;
+	position: absolute;
+	top: 16.250em;
+	left: 3.125em;
+}
+
+#about p {
+	margin-bottom: 0.625em;
+}
+
+#subscribe {
+	position: absolute;
+	top: 35em;
+	left: 2.8em;
+}
+
+#email {
+	background-color: rgba(255, 255, 255, 0.4);
+	border: none;
+	width: 225px;
+	height: 45px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	font-size: 1.1em;
+	font-weight: 200;
+	color: black;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#subscribe_submit {
+	background: #ffe791; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTc5MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGNjMTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffe791 0%, #f0cc11 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe791), color-stop(100%,#f0cc11)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffe791 0%,#f0cc11 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffe791 0%,#f0cc11 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffe791 0%,#f0cc11 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffe791 0%,#f0cc11 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe791', endColorstr='#f0cc11',GradientType=0 ); /* IE6-8 */
+	
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	font-size: 1em;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 0.05em;
+	text-shadow: 0px 2px #D1981D;
+	padding: 10px 15px 14px 15px;
+	margin-left: 0.875em;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 0px 10px rgba(0, 0, 0, 0.2);
+	
+	cursor: pointer;
+}
+
+#alert {
+	display: block;
+	color: #ffe791;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 7px;
+}
+
+#description {
+	position: absolute;
+	top: 10.9em;
+	left: 33em;
+	color: white;
+	display: inline-block;
+	width: 33.125em;
+	margin-bottom: 50px;
+}
+
+#description h1 {
+	display: inline-block;
+	font-size: 1.313em;
+	font-style: italic;
+	font-weight: 700;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 1em;
+}
+
+#description p {
+	font-size: 1em;
+	line-height: 1.375em;
+	margin-bottom: 1em;
+}
+
+#slidedeck_frame {
+	margin-bottom: 1em;
+}
+
+#hider {
+	margin-bottom: 55px;
+}
+
+
+
